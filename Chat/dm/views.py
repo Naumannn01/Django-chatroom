@@ -7,8 +7,8 @@ def home(request):
     # send_mail(
     #     'Testing mail',
     #     'Hello this is my first django mail',
-    #     'nomishaikh2002@gmail.com',
-    #     ['shaikhnomu2002@gmail.com'],
+    #     'sender's mail @gmail.com',
+    #     ['receiver's mail @gmail.com'],
     #     fail_silently=False
     # )
     return render(request,'home.html')
