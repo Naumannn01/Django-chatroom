@@ -1,8 +1,19 @@
-# Django-chatroom
-1)The code is ready completely you just need to create a django project edit the settings.py and urls.py file
+# 💬 Django Chatroom
 
-2)Create a app named dm and zip all files
+### 🚀 Getting Started
+1. Create a Django project and edit the `settings.py` and `urls.py` files as needed.
+2. Create an app named `dm` and include the provided files in it.
+3. Move the corresponding files into the `templates` directory.
 
-3)Same with templates 
+### ⚙️ Setup Instructions
+- Run the following commands to set up the project:
+  ```bash
+  python manage.py makemigrations
+  python manage.py migrate
+  python manage.py createsuperuser
+  ```
 
-4) Note- You have to run your migrations and migrate command also create a superuser
+### 📝 Notes
+- Ensure all migrations are applied successfully.
+- Use the `createsuperuser` command to create an admin account for managing the chatroom.
+- You're all set to run the project and explore the chatroom!
